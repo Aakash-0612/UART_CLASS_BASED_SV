@@ -1,0 +1,574 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project first
+pwd
+# /u/aakashbh/UART-SV
+cd Verification
+# reading /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/../modelsim.ini
+pwd
+# /u/aakashbh/UART-SV/Verification
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:40:19 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:40:19 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:40:19 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 20:40:19 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:40:19 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 20:40:20 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:40:20 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 20:40:20 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:40:20 on Dec 29,2024
+# vlog -reportprogress 300 -sv tb/uart_trans.sv 
+# ** Error: (vlog-7) Failed to open design unit file "tb/uart_trans.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 20:40:20 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+# Error in macro ./compile.do line 13
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv tb/uart_trans.sv"
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:35 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:35 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:35 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 20:42:35 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:35 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 20:42:36 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:36 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 20:42:36 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:36 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:36 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:36 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:36 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:36 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:37 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:37 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:37 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:37 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:37 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:37 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:37 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:37 on Dec 29,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:42:38 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# ** UI-Msg (Error): (vish-3296) Unknown option '-sv'.
+# Use the -help option for complete vsim usage.
+# ** Error: Error loading design
+# Error in macro ./compile.do line 22
+# Error loading design
+#     while executing
+# "error "Error loading design""
+#     (procedure "vsim" line 162)
+#     invoked from within
+# "vsim -sv -do "run -all" tb"
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:53 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:53 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:53 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 20:42:53 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:53 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 20:42:53 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:53 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 20:42:54 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:54 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:54 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:54 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:54 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:54 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:54 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:54 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:55 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:55 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:55 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:55 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:42:55 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:42:55 on Dec 29,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:42:55 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -do "run -all" tb 
+# Start time: 20:42:55 on Dec 29,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: tb.sv(8): Module 'uart_if' is not defined.
+#  For instance 'vif' at path 'tb'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./compile.do PAUSED at line 22
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:22 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:47:23 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:23 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_if
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:47:23 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:23 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 20:47:23 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:23 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 20:47:23 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:23 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 20:47:24 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:24 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:47:24 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:24 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:47:24 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:24 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:47:24 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:24 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:47:25 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:25 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:47:25 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:25 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:47:25 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:47:25 on Dec 29,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:47:25 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -do "run -all" tb 
+# Start time: 20:42:55 on Dec 29,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.uart_if(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# ** Fatal: (vsim-8274) Virtual interface elem. 'donrx' not found in 'uart_if'.
+#    Time: 0 ps  Iteration: 0  Region: /v_pkg File: uart_driver.sv Line: 92
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./compile.do PAUSED at line 26
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:38 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:48:38 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:38 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_if
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:48:39 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:39 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 20:48:39 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:39 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 20:48:39 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:39 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 20:48:39 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:39 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:48:40 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:40 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:48:40 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:40 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:48:40 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:40 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:48:40 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:40 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:48:41 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:41 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:48:41 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:48:41 on Dec 29,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:48:41 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -do "run -all" tb 
+# Start time: 20:42:55 on Dec 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.uart_if(fast)
+# End time: 20:48:43 on Dec 29,2024, Elapsed time: 0:05:48
+# Errors: 2, Warnings: 0

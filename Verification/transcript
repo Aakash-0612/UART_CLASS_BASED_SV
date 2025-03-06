@@ -1,0 +1,4039 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project LAST
+do compile.do 
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:18:06 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# ** Error: (vlog-13069) v_pkg.svp(10): near "uart_if": syntax error, unexpected IDENTIFIER, expecting class.
+# End time: 21:18:07 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+# Error in macro ./compile.do line 5
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv v_pkg.svp"
+vlog -sv v_pkg.svp
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:21:15 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# ** Error: v_pkg.svp(9): Cannot find `include file "uart_if.sv" in directories:
+#     /pkgs/mentor/questa/2024.2/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /pkgs/mentor/questa/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# End time: 21:21:16 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+vlog -sv v_pkg.svp
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:21:52 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(9)
+# ** at uart_interface.sv(3): near "uart_if": syntax error, unexpected IDENTIFIER, expecting class.
+# End time: 21:21:52 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+vlog -sv v_pkg.svp
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:23:16 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(9)
+# ** at uart_interface.sv(3): near "uart_interface": syntax error, unexpected IDENTIFIER, expecting class.
+# End time: 21:23:17 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:25:19 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# ** Error: uart_interface.sv(1): (vlog-13006) Could not find the package (v_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# End time: 21:25:19 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:25:44 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:25:44 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv v_pkg.svp
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:26:06 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(9)
+# ** at uart_interface.sv(3): near "uart_interface": syntax error, unexpected IDENTIFIER, expecting class.
+# End time: 21:26:06 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:26:36 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:26:36 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv v_pkg.svp
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:26:39 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:26:39 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv uart_trans.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:27:18 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:27:18 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv uart_generator.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:27:18 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:27:19 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv uart_driver.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:27:19 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:27:19 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv uart_monitor.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:27:19 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:27:19 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv uart_scoreboard.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:27:19 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:27:19 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv uart_env.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:27:19 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:27:19 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv tb.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:27:20 on Dec 29,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# ** Error: tb.sv(23): (vlog-2730) Undefined variable: 'env'.
+# End time: 21:27:20 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+
+vlog -sv tb.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:30:51 on Dec 29,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:30:51 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:20 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:31:20 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:20 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 21:31:20 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:20 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 21:31:20 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:20 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 21:31:21 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:21 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:31:21 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:21 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:31:21 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:21 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:31:21 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:21 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:31:22 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:22 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:31:22 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:22 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:31:22 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:31:22 on Dec 29,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:31:22 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -debug all -do "run -all" tb
+# ** UI-Msg (Error): (vish-3296) Unknown option '-debug'.
+# Use the -help option for complete vsim usage.
+# Error loading design
+
+vsim -sv -do "run -all" tb
+# ** UI-Msg (Error): (vish-3296) Unknown option '-sv'.
+# Use the -help option for complete vsim usage.
+# Error loading design
+
+vsim -help
+# Questa Sim-64 vsim 2024.2 Simulator 2024.05 May 20 2024
+#     The vsim tool provides HDL simulation based on the compiled and optimized
+#     design and it provides various post-simulation analysis capabilities. In
+#     simulation mode it expects to be provided with the optimization output for
+#     the root of the design, or it will automatically produce such an
+#     optimization from the root of the design.
+#     
+#     Try the following to get help on specific options or categories: 
+# 
+#     vsim -help all            : List all categories and options
+#     vsim -help category       : List all categories
+#     vsim -help <option>       : Help on an option
+#     vsim -help <command-line> : Help on all options in a command-line
+#     vsim -help <category>     : List all options in a category
+# 
+#     Category:       The list of categories in vsim tool.
+# 
+#     General         List most common general options
+#     Coverage        List options for Coverage
+#     Cpp             List options supporting SystemC module
+#     Debug           List options for debug, and assertion
+#     GLS             List options for Gate Level Simulation
+#     Language        List all options supported by hardware language Verilog/VHDL
+#     Library         List options for design, work library
+#     License         List options helping for license issues
+#     Messages        List all warn, error, note, fatal messages options
+#     MultiCore       List options supporting for Multicore (MC2)
+#     PA              List most common options supporting for Power Aware
+#     Pdu             List options for Preoptimized Design Unit.
+#     Report          List options for reporting log file, statistics, capstats
+#     Solver          List options supporting for Solver
+#     Visualizer      List options supporting for visualizer
+# vsim -help Language
+# Questa Sim-64 vsim 2024.2 Simulator 2024.05 May 20 2024
+# ------------------------------------Language------------------------------------
+# Options to control Language features
+# 
+# --------------------------------------------------------------------------------
+# +bitblast[=[iopath|tcheck]]     Bit-blast Verilog specify paths and/or tchecks
+#                                 with wide ports. Without the optional
+#                                 qualifiers operates on specify paths and
+#                                 tchecks.
+#                                 +bitblast=iopath bit-blasts specify paths with
+#                                 wide ports.
+#                                 +bitblast=tcheck bit-blasts tchecks with wide
+#                                 ports.
+#                                 
+# +delayed_timing_checks          Causes timing checks to be performed on the
+#                                 delayed versions of input ports
+#                                 
+# +dumpports+direction            direction          Provide port direction info
+#                                 in VCD file for dumpports
+#                                 unique             Provide unique Extended VCD
+#                                 identifier for each port
+#                                 no_strength_range  Ignore strength range when
+#                                 resolving conflicts
+#                                 collapse           Collapse dumpport vectors
+#                                 into single VCD ids
+#                                 nocollapse         Don't collapse dumpport
+#                                 vectors into single VCD ids
+#                                 force_direction    Ignore driver location. Use
+#                                 port direction for input and output ports
+#                                 
+# +initmem+<seed>                 Specify seed value to be used for randomizing
+#                                 fixed-size arrays marked for randomization by
+#                                 vlog/vopt.
+#                                 
+# +initmemvh=<seed>               Specify seed value to be used for randomizing
+#                                 fixed-size arrays marked for randomization by
+#                                 vcom/vopt.
+#                                 
+# +initreg+<seed>                 Specify seed value to be used for randomizing
+#                                 variables marked for randomization by
+#                                 vlog/vopt.
+#                                 
+# +initsig=<seed>                 Specify seed value to be used for randomizing
+#                                 signals marked for randomization by vcom/vopt.
+#                                 
+# +initvar=<seed>                 Specify seed value to be used for randomizing
+#                                 variables marked for randomization by
+#                                 vcom/vopt.
+#                                 
+# +multisource_int_delays         Enable multisource interconnect delays for both
+#                                 Verilog and VHDL
+#                                 
+# +no_glitch_msg                  Disable glitch error messages
+#                                 
+# +no_notifier                    Disable notifier toggling for timing constraint
+#                                 violations
+#                                 
+# +no_tchk_msg                    Disable timing constraint error messages
+#                                 
+# +noinitregNBA                   Controls whether +initreg settings applied to
+#                                 registers of sequential UDPs should be
+#                                 non-blocking. This is useful when continuous
+#                                 assignments overwrite register initialization.
+#                                 +noinitregNBA -- disables this functionality.
+#                                 
+# +notimingchecks                 Disable Verilog and VITAL timing checks
+#                                 
+# -absentisempty                  Treat non-existent VHDL files opened for read
+#                                 as empty
+#                                 
+# -assume                         Simulate PSL and Verilog assume directives same
+#                                 as assert directives
+#                                 
+# -autoexclusions=fsm|assertions|all|none
+#                                 Turns on/off automatic fsm or assertions code
+#                                 coverage exclusions
+#                                 
+# -autoexclusionsdisable=fsm|assertions|all|none
+#                                 Turns on/off automatic fsm or assertions code
+#                                 coverage exclusions
+#                                 
+# -autoprofile[=<profile_database>]
+#                                 Automatically collect profile data without
+#                                 requiring the use of profile commands.
+#                                 Specifying a profile database name is optional
+#                                 
+# -checkvifacedrivers 1|0         Include assignments through virtual interfaces
+#                                 in the multiple-driver analysis.
+#                                 
+# -codelink=<path>                Specify the path to CODELINK_HOME directory
+#                                 
+# -compress_elab                  In conjunction with -elab, enables compression
+#                                 of the elab file, This option is now deprecated
+#                                 and will be removed in future releases.
+#                                 
+# -defaultstdlogicinittoz         Sets the default VHDL initialization of
+#                                 std_logic to "Z" (high impedance) for ports of
+#                                 type OUT and INOUT.
+#                                 
+# -elab <filename>                Elaborate a design into a file
+#                                 
+# -elab_cont <filename>           Elaborate a design into a file and simulate
+#                                 
+# -elab_defer_fli                 Defer calling FLI initialization routines
+#                                 
+# -elab_dir                       In conjunction with -elab, enables creation of
+#                                 the checkpoint artifact as a directory; not a
+#                                 file.
+#                                 
+# -enumfirstinit                  Initializes enum variables in SystemVerilog
+#                                 using the leftmost value as the default.
+#                                 Argument must be used with the vlog command in
+#                                 order to implement this initialization
+#                                 behavior. Specify the EnumBaseInit variable as
+#                                 0 in the modelsim.ini file to set this as a
+#                                 permanent default.
+#                                 
+# -filemap_elab <HDLfilename>=<NEWfilename>
+#                                 Define a mapping used during -load_elab
+#                                 
+# -foreign <C_init_func> <shared_lib>
+#                                 Load a foreign module
+#                                 
+# -gconrun                        Enable/disable garbage collection after each
+#                                 simulation run command.
+#                                 
+# -gconstep                       Enable/disable garbage collection after each
+#                                 step command.
+#                                 
+# -gcthreshold <n>                Specify the threshold for Garbage Collection.
+#                                 The default size is 100.  (i.e. Garbage
+#                                 Collection will be triggered after every 100M
+#                                 byte of class object allocation.)
+#                                 
+# -ignoreinilibs                  Ignore the libraries specified with the
+#                                 'LibrarySearchPath' variable in the vsim
+#                                 section of the ini file
+#                                 
+# -immed_ca                       Continuous assignment event ordering (OFF
+#                                 switch reverts to pre-6.5 continuous assignment
+#                                 event ordering)
+#                                 
+# -immedca                        Continuous assignment event ordering (OFF
+#                                 switch reverts to pre-6.5 continuous assignment
+#                                 event ordering)
+#                                 
+# -infacthome  <path>             Location of inFact installation. Overrides
+#                                 'InFactHome' modelsim.ini setting
+#                                 
+# -installcolormap                Cause the application to use its own color map
+#                                 
+# -int_force_inout                Under this option if a rtl force is applied on
+#                                 an inout instance terminal which is present at
+#                                 the target of an interconnect delay the force
+#                                 will be applied to the high conn net instead of
+#                                 the loconn one.
+#                                 
+# -iterationlimit=<arg>           arg=<limit>[k][m][g] Override iteration limit.
+#                                 Default: 10m.
+#                                 arg=f[ind]           Find iteration limit.
+#                                 Increase as needed and report final value at
+#                                 end of simulation
+#                                 
+# -keeploaded                     Prevent the simulator from unloading/reloading
+#                                 shared libraries
+#                                 
+# -keeploadedrestart              Prevent the simulator from unloading/reloading
+#                                 shared libraries during restart
+#                                 
+# -keepstdout                     Do not redirect stdout to transcript window
+#                                 
+# -learn <fname>                  Learn the names of objects externally accessed
+#                                 at runtime (by methods such as PLI, VPI, Signal
+#                                 Spy, or CLI). <fname>.ocf, <fname>.ocm and
+#                                 <fname>.acc files created
+#                                 
+# -load_elab <filename>           Load simulation from previous elaboration
+#                                 
+# -mlopt                          Optimize mixed language nets
+#                                 
+# -multisource_delay min|max|latest
+#                                 min|max|latest Controls annotation of SDF
+#                                 INTERCONNECT construct. (Default: max)
+#                                 
+# -noappendclose                  Do not physically close VHDL files when they
+#                                 are opened in append mode.
+#                                 
+# -noassume                       Do not simulate PSL and Verilog assume
+#                                 directives
+#                                 
+# -nocodelink                     Ignore the CODELINK_HOME environment variable
+#                                 and disable codelink loading.
+#                                 
+# -nocompress_elab                In conjunction with -elab, disables compression
+#                                 of the elab file
+#                                 
+# -nofileshare                    Do not share file descriptors for VHDL files
+#                                 opened for write or append that have identical
+#                                 names
+#                                 
+# -nogconrun                      Enable/disable garbage collection after each
+#                                 simulation run command.
+#                                 
+# -nogconstep                     Enable/disable garbage collection after each
+#                                 step command.
+#                                 
+# -noimmedca                      Revert to pre-6.5 continuous assignment event
+#                                 ordering
+#                                 
+# -nostrictassign                 Allows assigning an unpacked array to a packed
+#                                 array
+#                                 
+# -nostrictsvvh                   Reduces the strictness of type checking during
+#                                 port connection at SV-VHDL mixed language
+#                                 boundaries.
+#                                 
+# -novhdlvariablelogging          Disables higher performance VHDL variable
+#                                 logging
+#                                 
+# -nowiremodelforce               Restores the force command to previous usage
+#                                 (prior to version 10.0b) where an input port
+#                                 cannot be forced directly if it is mapped at a
+#                                 higher level in VHDL and mixed models. Signals
+#                                 must be forced at the top of the hierarchy
+#                                 connected to the input port.
+#                                 
+# -nowrealdefaultzero             Sets the default value for an undriven wreal
+#                                 net to `wrealZState.
+#                                 
+# -oldvhdlforgennames             Enable the use of a previous style of naming in
+#                                 VHDL for...generate statement iteration names
+#                                 in the design hierarchy.
+#                                 
+# -onfinish <mode>                Customize the kernel shutdown behavior at the
+#                                 end of simulation
+#                                 Valid modes - ask, stop, exit, final (Default:
+#                                 ask)
+#                                 
+# -pedanticerrors                 Enforce strict language checks
+#                                 
+# -permissive                     Relax some language error checks to warnings.
+#                                 
+# -permit_unmatched_virtual_intf  Allows unmatched virtual interfaces which makes
+#                                 the virtual interface to have a null value
+#                                 throughout simulation as no matching interface
+#                                 design unit exist
+#                                 
+# -psl                            Enable PSL assertions
+#                                 
+# -pslinfinitythreshold=<arg>     Redefine infinite clock tick for strong
+#                                 operators
+#                                 
+# -psloneattempt                  Force single PSL assertion coverage attempt
+#                                 
+# -restore <pathname>             Restore simulation from previous checkpoint
+#                                 file or directory, represented by <pathname>.
+#                                 
+# -saifdump <filename>            Dump power report file with -r option for all
+#                                 signals
+#                                 
+# -stackcheck                     Enable runtime stack usage sanity checking.
+#                                 
+# -std_input <filename>           Use filename for VHDL textio STD_INPUT file
+#                                 
+# -std_output <filename>          Use filename for VHDL textio STD_OUTPUT file
+#                                 
+# -stl                            Enable separate test loading.
+#                                 
+# -stltest <optimized SV test>    Load a separate SV test.
+#                                 
+# -strictvital                    Sacrifice performance for strict VITAL
+#                                 compliance
+#                                 
+# -sva                            Enable SystemVerilog concurrent assertions
+#                                 
+# -svext=[+|-]<extension>[,[+|-]<extension>]*
+#                                 Enable/disable non-LRM compliant SystemVerilog
+#                                 language extensions.
+#                                 Valid extensions are:
+#                                 adapc - Allow default assigment pattern
+#                                 cleanup, truncate old values
+#                                 altdpiheader - Alternative style function
+#                                 signature generated in
+#                                     DPI header
+#                                 aobrm - ignore out of bound address in
+#                                 $readmemh
+#                                 cfce - generate an error if $cast fails as a
+#                                 function
+#                                 ctva - generate an error $cast task fails in
+#                                 enum assignment
+#                                 cfva - Returns 0 if $cast function fails in
+#                                 enum assignment
+#                                 cfmt - C like formatting for specifiers with
+#                                 '#' prefix ('%#x', '%#h')
+#                                 dfsp - sets default format specifier as %p, if
+#                                 no format specifier
+#                                     is given for unpacked array in $display and
+#                                 related systasks
+#                                 expdfmt - enable format string extensions for
+#                                 $display/$sformatf
+#                                 extscan - support values greater than 32 bit
+#                                 for string builtin
+#                                     methods (atohex, atobin, atooct, atoi)
+#                                 (Default)
+#                                 xzscan - scan x and z bits for string builtin
+#                                 methods (atohex,
+#                                     atobin, atooct) (Default)
+#                                 fabv - Allow force on all bits while forcing a
+#                                 variable.
+#                                 ftpas  - Forward $test$plusargs systf
+#                                 evaluation to vsim simulation
+#                                     time.
+#                                 fmtcap - prints capital hex digits with %X/%H
+#                                 in display calls
+#                                 iddp - ignore DPI disable protocol check
+#                                 kctfp - Kill child threads of finished process 
+#                                 lfmt - zero-pad data if '0' prefixes width in
+#                                 format specifier (example:
+#                                     "%04h")
+#                                 noexptc - ignore DPI export SV type name
+#                                 overloading check
+#                                 realrand - support randomize() with real
+#                                 variables and
+#                                     constraints (Default)
+#                                 rsc - Allow type comparision of two structures
+#                                 with same members field
+#                                 rtob - Insert implicit $realtobits for a real
+#                                 value expression
+#                                     connected to a 64 bit wide vector port
+#                                 cfne - Generate a warning if source expression
+#                                 of a $cast is
+#                                     evaluated to null
+#                                 
+# -tag <string>                   Set tag for FLI/PLI tracing to <string>
+#                                 
+# -tbxhvllint                     Enables TBX to identify delays encountered at
+#                                 runtime, with file name line number and the
+#                                 delay maturity time. (This feature depends on
+#                                 libraries that have been compiled with
+#                                 -tbxhvllint specified to vlog)
+#                                 
+# -tran_int_delay                 The presence of interconnect delays around tran
+#                                 gate breaks the tran network which may result
+#                                 incorrect simulation behavior. 
+#                                 Under this option if the src or dst of any
+#                                 interconnect delay is connected to any tran
+#                                 gate terminal that will be ignored to ensure
+#                                 proper simulation behavior. 
+#                                 
+# -tranopt=<arg>                  Enable/Disable tran network resolution
+#                                 optimization
+#                                 
+# -uvmcontrol=[all,disable,struct,reseed,msglog,trlog,certe]
+#                                 Control specific UVM-aware debug options
+#                                 
+# -v2k_intr_delay                 Use Verilog 2000 style interconnect delays
+#                                 
+# -vcd=[+<option>[+<option>+...]] Specifies VCD logging-related option settings.
+#                                 Options are:
+#                                 [+multid]                 Enable logging for
+#                                 multi-d arrays.
+#                                 [+maxmultid=<max-limit>]  Override limit on
+#                                 size of multi-d arrays that are logged.
+#                                 [+vhvar]                  Enable logging for
+#                                 VHDL variables.
+#                                 
+# -vcddump <filename>             Dump VCD file with -r option for all signals
+#                                 
+# -vcdread <filename>             Stimulate the VHDL top-level design from a VCD
+#                                 file
+#                                 
+# -vcdstim [<instance>=]<filename>
+#                                 Stimulate the top-level design or instances
+#                                 from an Extended VCD file
+#                                 
+# -vhpi <shared_lib>              Load a vhpi shared library
+#                                 
+# -vhwarnnullrange                Issue Warning for null range arrays
+#                                 
+# -vital2.2b                      Select SDF mapping for VITAL 2.2b (Default:
+#                                 VITAL 95)
+#                                 
+# -vital_fix_negative_setup_hold_sum
+#                                 Set negative time to zero when setuphold sum is
+#                                 negative
+#                                 
+# -wreal_resolution <resolver>[,check|,nocheck ]
+#                                 Specify resolve behavior for AMS wreal net with
+#                                 multiple drivers, where <resolver> is default,
+#                                 4state, sum, avg, min, or max. check/nocheck
+#                                 determine if compatibility with nettype real
+#                                 resolution functions is to be checked.
+#                                 
+# -wrealdefaultzero               Sets the default value for an undriven wreal
+#                                 net to 0.0.
+#                                 
+# vsim -do "run -all" tb
+# vsim -do "run -all" tb 
+# Start time: 21:38:18 on Dec 29,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: tb.sv(6): Module 'uart_if' is not defined.
+#  For instance 'vif' at path 'tb'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+
+# End time: 21:38:19 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+vsim -do "run -all" tb
+# vsim -do "run -all" tb 
+# Start time: 21:38:55 on Dec 29,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: tb.sv(6): Module 'uart_if' is not defined.
+#  For instance 'vif' at path 'tb'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 21:38:56 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vlog -sv uart_if.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:42:05 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_if.sv 
+# ** Error: (vlog-7) Failed to open design unit file "uart_if.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 21:42:06 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:42:50 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:42:50 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:07 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:43:08 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:08 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 21:43:08 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:08 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 21:43:08 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:08 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 21:43:09 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:09 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:43:09 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:09 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:43:09 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:09 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:43:09 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:09 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:43:10 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:10 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:43:10 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:10 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:43:10 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:10 on Dec 29,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:43:10 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 21:44:34 on Dec 29,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vopt-143) Recognized 1 FSM in module "uarttx(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "uartrx(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut File: /u/aakashbh/UART-SV/Design/Top.sv
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+# Error loading design
+# End time: 21:44:37 on Dec 29,2024, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 2
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 21:45:40 on Dec 29,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut File: /u/aakashbh/UART-SV/Design/Top.sv
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+# Error loading design
+# End time: 21:45:41 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:20 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:46:20 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:30 on Dec 29,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:46:30 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:30 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 21:46:31 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:31 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 21:46:31 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:31 on Dec 29,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 21:46:31 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:31 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:46:31 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:31 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:46:32 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:32 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:46:32 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:32 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:46:32 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:32 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:46:32 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:32 on Dec 29,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:46:33 on Dec 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:46:33 on Dec 29,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:46:33 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 21:46:39 on Dec 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #() from class sv_std.std::mailbox #(class work.v_pkg::uart_trans)
+# 
+#    Time: 0 ps  Iteration: 0  Process: /tb/#INITIAL#25 File: uart_generator.sv
+# Fatal error in Function v_pkg/uart_generator::new at uart_generator.sv line 30
+# 
+# HDL call sequence:
+# Stopped at uart_generator.sv 30 Function v_pkg/uart_generator::new
+# called from  uart_env.sv 34 Function v_pkg/uart_env::new
+# called from  tb.sv 26 Module tb
+# 
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:05 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:32:06 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:09 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:32:09 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:09 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 17:32:10 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 17:32:10 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 17:32:10 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:32:10 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:32:11 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:11 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:32:11 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:11 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:32:11 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:11 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:32:11 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:11 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:32:12 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:32:12 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:32:12 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# End time: 17:32:17 on Dec 30,2024, Elapsed time: 19:45:38
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 17:32:17 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #() from class sv_std.std::mailbox #(bit[7:0])
+# 
+#    Time: 0 ps  Iteration: 0  Process: /tb/#INITIAL#25 File: uart_driver.sv
+# Fatal error in Function v_pkg/uart_driver::new at uart_driver.sv line 25
+# 
+# HDL call sequence:
+# Stopped at uart_driver.sv 25 Function v_pkg/uart_driver::new
+# called from  uart_env.sv 35 Function v_pkg/uart_env::new
+# called from  tb.sv 26 Module tb
+# 
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:17 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:36:18 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:21 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:36:21 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:21 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 17:36:21 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:21 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 17:36:22 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:22 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 17:36:22 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:22 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:36:22 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:22 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:36:22 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:22 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:36:23 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:36:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:36:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:36:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:36:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:36:24 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# End time: 17:36:30 on Dec 30,2024, Elapsed time: 0:04:13
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 17:36:30 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+# ** Error (suppressible): (vsim-12460) Illegal assignment to class sv_std.std::mailbox #() from class sv_std.std::mailbox #(class work.v_pkg::uart_trans)
+#    Time: 0 ps  Iteration: 0  Region: /v_pkg File: uart_driver.sv Line: 26
+# Error loading design
+# End time: 17:36:33 on Dec 30,2024, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:20 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:38:21 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:38:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 17:38:24 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:24 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 17:38:24 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:24 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 17:38:24 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:24 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:38:24 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:24 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:38:25 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:25 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:38:25 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:25 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:38:25 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:25 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:38:25 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:25 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:38:26 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:38:26 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:38:26 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 17:38:29 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #(class work.v_pkg::uart_trans) from class sv_std.std::mailbox #(bit[7:0])
+# 
+#    Time: 0 ps  Iteration: 0  Process: /tb/#INITIAL#25 File: uart_driver.sv
+# Fatal error in Function v_pkg/uart_driver::new at uart_driver.sv line 26
+# 
+# HDL call sequence:
+# Stopped at uart_driver.sv 26 Function v_pkg/uart_driver::new
+# called from  uart_env.sv 35 Function v_pkg/uart_env::new
+# called from  tb.sv 26 Module tb
+# 
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:48 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:39:49 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:51 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:39:52 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:52 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 17:39:52 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:52 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 17:39:52 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:52 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 17:39:52 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:52 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:39:53 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:53 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:39:53 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:53 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:39:53 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:53 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:39:53 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:53 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:39:54 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:54 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:39:54 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:39:54 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:39:54 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# End time: 17:40:00 on Dec 30,2024, Elapsed time: 0:01:31
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 17:40:01 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #() from class sv_std.std::mailbox #(bit[7:0])
+# 
+#    Time: 0 ps  Iteration: 0  Process: /tb/#INITIAL#25 File: uart_monitor.sv
+# Fatal error in Function v_pkg/uart_monitor::new at uart_monitor.sv line 21
+# 
+# HDL call sequence:
+# Stopped at uart_monitor.sv 21 Function v_pkg/uart_monitor::new
+# called from  uart_env.sv 36 Function v_pkg/uart_env::new
+# called from  tb.sv 26 Module tb
+# 
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:18 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:42:18 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:20 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:42:21 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:21 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 17:42:21 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:21 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 17:42:21 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:21 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 17:42:21 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:21 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:42:22 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:22 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:42:22 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:22 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:42:22 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:22 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:42:22 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:22 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:42:23 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:42:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:42:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:42:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# End time: 17:42:27 on Dec 30,2024, Elapsed time: 0:02:26
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 17:42:27 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #() from class sv_std.std::mailbox #(bit[7:0])
+# 
+#    Time: 0 ps  Iteration: 0  Process: /tb/#INITIAL#25 File: uart_scoreboard.sv
+# Fatal error in Function v_pkg/uart_scoreboard::new at uart_scoreboard.sv line 24
+# 
+# HDL call sequence:
+# Stopped at uart_scoreboard.sv 24 Function v_pkg/uart_scoreboard::new
+# called from  uart_env.sv 37 Function v_pkg/uart_env::new
+# called from  tb.sv 26 Module tb
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at uart_scoreboard.sv 24 Function v_pkg/uart_scoreboard::new
+# called from  uart_env.sv 37 Function v_pkg/uart_env::new
+# called from  tb.sv 26 Module tb
+# 
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:14 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:44:14 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:17 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:44:17 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:17 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 17:44:17 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:17 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 17:44:17 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:17 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 17:44:18 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:18 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:44:18 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:18 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:44:18 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:18 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:44:18 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:18 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:44:19 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:19 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:44:19 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:19 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:44:19 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:44:19 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:44:19 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# End time: 17:44:22 on Dec 30,2024, Elapsed time: 0:01:55
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 17:44:22 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #() from class sv_std.std::mailbox #(bit[7:0])
+# 
+#    Time: 0 ps  Iteration: 0  Process: /tb/#INITIAL#25 File: uart_scoreboard.sv
+# Fatal error in Function v_pkg/uart_scoreboard::new at uart_scoreboard.sv line 24
+# 
+# HDL call sequence:
+# Stopped at uart_scoreboard.sv 24 Function v_pkg/uart_scoreboard::new
+# called from  uart_env.sv 37 Function v_pkg/uart_env::new
+# called from  tb.sv 26 Module tb
+# 
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:45:59 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:45:59 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:46:07 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# ** Error: (vlog-13005) uart_scoreboard.sv(8.17): near ")": syntax error, unexpected type name found where an identifier was expected. The type 'mailbox' is defined at verilog_src/std/std.sv(19).
+# End time: 17:46:07 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+# Error in macro ./compile.do line 5
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv v_pkg.svp"
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:47:39 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 17:47:39 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 17:47:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 17:47:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:47:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:47:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:47:41 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:47:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:47:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:47:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:47:42 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:47:42 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# End time: 17:47:46 on Dec 30,2024, Elapsed time: 0:03:24
+# Errors: 2, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 17:47:46 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: ##### INSIDE GENERATOR #####
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [GEN]: ##### WAITING FOR DRIVER TO GET COMPLETED #####
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [GEN]: ##### DRIVER GOT COMPLETED #####
+# Break key hit
+# Break in Module uartrx at /u/aakashbh/UART-SV/Design/RX.sv line 25
+quit -vsim
+# unknown switch: -vsim
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:25 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:21:26 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:29 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:21:29 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:29 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 18:21:30 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:30 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 18:21:30 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:30 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 18:21:30 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:30 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:21:30 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:30 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:21:31 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:31 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:21:31 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:31 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:21:31 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:31 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:21:31 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:31 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:21:32 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:21:32 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:21:32 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# End time: 18:21:38 on Dec 30,2024, Elapsed time: 0:33:52
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.tb 
+# Start time: 18:21:38 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: ##### INSIDE GENERATOR #####
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [GEN]: ##### WAITING FOR DRIVER TO GET COMPLETED #####
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# Break key hit
+# Simulation stop requested.
+
+quit -sim
+# End time: 18:30:56 on Dec 30,2024, Elapsed time: 0:09:18
+# Errors: 0, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:02 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:31:03 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:06 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:31:06 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:06 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 18:31:06 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:06 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 18:31:06 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:06 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 18:31:06 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:07 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:31:07 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:07 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:31:07 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:07 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:31:07 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:07 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:31:07 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:07 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:31:07 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:08 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:31:08 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:08 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:31:08 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 18:31:12 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [GEN]: DRIVER GOT COMPLETED
+# Break key hit
+# ** Error: (vsim-191) Questa has encountered an unexpected internal error: ./vsim/vs_actions_mac.c(37712). 
+# Please contact Questa support at https://support.sw.siemens.com
+# ** Error: (vsim-191) Questa has encountered an unexpected internal error: ./vsim/vs_actions_mac.c(37728). 
+# Please contact Questa support at https://support.sw.siemens.com
+# Simulation stop requested.
+quit -sim
+# End time: 18:41:29 on Dec 30,2024, Elapsed time: 0:10:17
+# Errors: 2, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:41:55 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:41:55 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:41:58 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:41:58 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:41:58 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 18:41:58 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:41:58 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 18:41:58 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:41:58 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 18:41:59 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:41:59 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:41:59 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:41:59 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:41:59 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:41:59 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:41:59 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:41:59 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:41:59 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:41:59 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:42:00 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:42:00 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:42:00 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:42:00 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:42:00 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 18:42:04 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all 
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [GEN]: DRIVER GOT COMPLETED
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 18:51:25 on Dec 30,2024, Elapsed time: 0:09:21
+# Errors: 0, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:33 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:51:34 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:51:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 18:51:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 18:51:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 18:51:41 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:51:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:51:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:51:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:51:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:42 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:51:42 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:42 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:51:42 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:51:42 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:51:42 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 18:51:51 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 18:56:57 on Dec 30,2024, Elapsed time: 0:05:06
+# Errors: 0, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:06 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:57:07 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:57:10 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 18:57:10 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 18:57:10 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 18:57:11 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:11 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:57:11 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:11 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:57:11 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:11 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:57:11 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:11 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:57:12 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:12 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:57:12 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:12 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:57:12 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:57:12 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:57:12 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 18:57:15 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# Break key hit
+# Break in Module tb at tb.sv line 19
+quit -sim
+# End time: 19:01:50 on Dec 30,2024, Elapsed time: 0:04:35
+# Errors: 0, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:01:57 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:01:57 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:01 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:02:02 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:02 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 19:02:02 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:02 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 19:02:02 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:02 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 19:02:02 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:02 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:02:03 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:03 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:02:03 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:03 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:02:03 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:03 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:02:03 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:03 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:02:04 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:04 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:02:04 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:02:04 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:02:04 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 19:02:10 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 19:19:13 on Dec 30,2024, Elapsed time: 0:17:03
+# Errors: 0, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:19 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:19:19 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:19:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 19:19:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 19:19:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 19:19:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:23 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:19:24 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:24 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:19:24 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:24 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:19:24 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:24 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:19:24 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:24 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:19:25 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:25 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:19:25 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:19:25 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:19:25 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 19:19:30 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: Iteration 5 of 5
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [GEN]: Waiting for driver_done...
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# Break key hit
+# ** Error: (vsim-191) Questa has encountered an unexpected internal error: ./vsim/vs_actions_mac.c(37712). 
+# Please contact Questa support at https://support.sw.siemens.com
+# ** Error: (vsim-191) Questa has encountered an unexpected internal error: ./vsim/vs_actions_mac.c(37728). 
+# Please contact Questa support at https://support.sw.siemens.com
+# Simulation stop requested.
+quit -sim
+# End time: 19:25:35 on Dec 30,2024, Elapsed time: 0:06:05
+# Errors: 2, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:04 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:26:05 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:08 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:26:08 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:08 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 19:26:08 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:08 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 19:26:09 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:09 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 19:26:09 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:09 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:26:09 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:09 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:26:09 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:09 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:26:10 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:26:10 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:26:10 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:26:10 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:26:10 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:26:11 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 19:26:24 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all 
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [GEN]: Waiting for driver_done...
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 19:57:06 on Dec 30,2024, Elapsed time: 0:30:42
+# Errors: 0, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:57:19 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:57:20 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:57:26 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(5)
+# ** at uart_driver.sv(72): near "or": syntax error, unexpected or.
+# ** Error: ** while parsing file included at v_pkg.svp(5)
+# ** at uart_driver.sv(73): (vlog-2730) Undefined variable: 'timeout_limit'.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(5)
+# ** at uart_driver.sv(76): near ")": syntax error, unexpected ')'.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(5)
+# ** at uart_driver.sv(83): near "else": syntax error, unexpected else.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(5)
+# ** at uart_driver.sv(101): near "or": syntax error, unexpected or.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(5)
+# ** at uart_driver.sv(111): near "endtask": syntax error, unexpected endtask.
+# ** Error: ** while parsing file included at v_pkg.svp(6)
+# ** at uart_monitor.sv(9): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at v_pkg.svp(6)
+# ** at uart_monitor.sv(11): Illegal to use typedef "mailbox" as a variable.
+# ** Error: ** while parsing file included at v_pkg.svp(6)
+# ** at uart_monitor.sv(19): Illegal declaration after the statement near line '11'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at v_pkg.svp(6)
+# ** at uart_monitor.sv(22): (vlog-2730) Undefined variable: 'mon_2_scb'.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(6)
+# ** at uart_monitor.sv(24): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(6)
+# ** at uart_monitor.sv(62): near "endtask": syntax error, unexpected endtask.
+# ** Error: ** while parsing file included at v_pkg.svp(7)
+# ** at uart_scoreboard.sv(8): Illegal to use typedef "mailbox" as a variable.
+# ** Error: ** while parsing file included at v_pkg.svp(7)
+# ** at uart_scoreboard.sv(9): Illegal to use typedef "mailbox" as a variable.
+# ** Error: ** while parsing file included at v_pkg.svp(7)
+# ** at uart_scoreboard.sv(22): Illegal declaration after the statement near line '9'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(7)
+# ** at uart_scoreboard.sv(27): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(7)
+# ** at uart_scoreboard.sv(47): near "endtask": syntax error, unexpected endtask.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(6): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(7): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(8): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(9): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(18): Illegal declaration after the statement near line '9'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(20): Illegal to use typedef "mailbox" as a variable.
+# ** Error: ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(23): Illegal to use typedef "mailbox" as a variable.
+# ** Error (suppressible): ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(25): (vlog-2388) 'vif' already declared in this scope (#ublk#8152855#54) at uart_monitor.sv(8).
+# ** Error: ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(25): (vlog-13311) 'vif' already declared in this scope ('#ublk#8152855#54') with a type.
+# ** Error: ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(28): Illegal declaration after the statement near line '23'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(34): (vlog-2730) Undefined variable: 'gen'.
+# ** Error: ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(35): (vlog-2730) Undefined variable: 'drv'.
+# ** Error: ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(36): (vlog-2730) Undefined variable: 'mon'.
+# ** Error: ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(37): (vlog-2730) Undefined variable: 'sco'.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(49): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(53): near "endtask": syntax error, unexpected endtask.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(62): near "endtask": syntax error, unexpected endtask.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(67): near "endtask": syntax error, unexpected endtask.
+# ** Error: (vlog-13069) ** while parsing file included at v_pkg.svp(8)
+# ** at uart_env.sv(73): near "endtask": syntax error, unexpected endtask.
+# End time: 19:57:26 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 36, Warnings: 0
+# ** Error: /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+# Error in macro ./compile.do line 5
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv v_pkg.svp"
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:35 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:59:35 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:38 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:59:39 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 19:59:39 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 19:59:39 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 19:59:39 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:59:39 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:59:40 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:59:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:59:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:59:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:59:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:59:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:59:41 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 20:00:29 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [GEN]: Waiting for driver_done...
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 20:02:27 on Dec 30,2024, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:34 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:02:34 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:38 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:02:38 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:38 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 20:02:38 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:38 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 20:02:38 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:38 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 20:02:39 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:02:39 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:02:39 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:02:39 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:39 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:02:40 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:02:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:02:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:02:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:02:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 20:02:43 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [GEN]: Waiting for driver_done...
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# Break key hit
+# Break in Module tb at tb.sv line 19
+quit -sim
+# End time: 20:12:22 on Dec 30,2024, Elapsed time: 0:09:39
+# Errors: 0, Warnings: 2
+vlog -sv uart_interface.sv
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:35 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_interface.sv 
+# -- Compiling interface uart_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:12:36 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv v_pkg.svp 
+# -- Compiling package v_pkg
+# ** Warning: uart_generator.sv(53): (vlog-2240) Treating stand-alone use of function 'triggered' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:12:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 20:12:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 20:12:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:40 on Dec 30,2024
+# vlog -reportprogress 300 -sv /u/aakashbh/UART-SV/Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 20:12:40 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:12:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# ** Warning: uart_generator.sv(53): (vlog-2240) Treating stand-alone use of function 'triggered' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:12:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:12:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:12:41 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:41 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:12:42 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:42 on Dec 30,2024
+# vlog -reportprogress 300 -sv uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:12:42 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:42 on Dec 30,2024
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:12:42 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 20:12:46 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: uart_generator.sv(53): (vopt-2240) Treating stand-alone use of function 'triggered' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [GEN]: Waiting for driver_done...
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# [GEN]: SCOREBOARD GOT COMPLETED
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: read Din: 102
+# [GEN]: Waiting for driver_done...
+# [DRIVER]: Data RCVD: 172
+# [DRIVER]: Triggering driver_done event for operation: 1
+# [MONITOR]: Data RCVD on RX: 172
+# [GEN]: DRIVER GOT COMPLETED
+# [GEN]: SCOREBOARD GOT COMPLETED
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: read Din: 193
+# [GEN]: Waiting for driver_done...
+# [SCO] : DRV : 172 MON : 172
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Data RCVD: 216
+# [DRIVER]: Triggering driver_done event for operation: 1
+# [MONITOR]: Data RCVD on RX: 216
+# [GEN]: DRIVER GOT COMPLETED
+# [GEN]: SCOREBOARD GOT COMPLETED
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 143
+# [GEN]: Waiting for driver_done...
+# [SCO] : DRV : 216 MON : 216
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Data Sent: 143
+# [MONITOR]: Data Sent on TX: 143
+# [SCO] : DRV : 143 MON : 143
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# [GEN]: SCOREBOARD GOT COMPLETED
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 169
+# [GEN]: Waiting for driver_done...
+# [DRIVER]: Data Sent: 169
+# [MONITOR]: Data Sent on TX: 169
+# [SCO] : DRV : 169 MON : 169
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# [GEN]: SCOREBOARD GOT COMPLETED
+# [GEN]: GENERATION COMPLETED
+# ** Note: $finish    : uart_env.sv(66)
+#    Time: 128250015 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Task v_pkg/uart_env::post_test at uart_env.sv line 66

@@ -1,0 +1,203 @@
+do compile.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:41 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Verification/v_pkg.svp 
+# -- Compiling package v_pkg
+# ** Warning: ./Verification/uart_generator.sv(53): (vlog-2240) Treating stand-alone use of function 'triggered' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	--none--
+# End time: 11:16:41 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:41 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Design/TX.sv 
+# -- Compiling module uarttx
+# 
+# Top level modules:
+# 	uarttx
+# End time: 11:16:41 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:41 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Design/RX.sv 
+# -- Compiling module uartrx
+# 
+# Top level modules:
+# 	uartrx
+# End time: 11:16:42 on Mar 06,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:42 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Design/Top.sv 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 11:16:42 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:42 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Verification/uart_trans.sv 
+# -- Compiling package uart_trans_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 11:16:42 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:42 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Verification/uart_generator.sv 
+# -- Compiling package uart_generator_sv_unit
+# -- Importing package v_pkg
+# ** Warning: ./Verification/uart_generator.sv(53): (vlog-2240) Treating stand-alone use of function 'triggered' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	--none--
+# End time: 11:16:42 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:42 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Verification/uart_driver.sv 
+# -- Compiling package uart_driver_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 11:16:43 on Mar 06,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:43 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Verification/uart_monitor.sv 
+# -- Compiling package uart_monitor_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 11:16:43 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:43 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Verification/uart_scoreboard.sv 
+# -- Compiling package uart_scoreboard_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 11:16:43 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:43 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Verification/uart_env.sv 
+# -- Compiling package uart_env_sv_unit
+# -- Importing package v_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 11:16:43 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 11:16:43 on Mar 06,2025
+# vlog -reportprogress 300 -sv ./Verification/tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package v_pkg
+# -- Compiling interface uart_interface
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:16:43 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -do "run -all" tb 
+# Start time: 11:15:20 on Mar 06,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: ./Verification/uart_generator.sv(53): (vopt-2240) Treating stand-alone use of function 'triggered' as an implicit VOID cast.
+# ** Note: (vopt-143) Recognized 1 FSM in module "uarttx(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "uartrx(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=3.
+# Loading sv_std.std
+# Loading work.uart_interface(fast)
+# Loading work.v_pkg(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.uart_interface(fast__2)
+# Loading work.uart_top(fast)
+# Loading work.uarttx(fast)
+# Loading work.uartrx(fast)
+# run -all
+#  ##### INSIDE THE UART GENERATOR CONSTRUCTOR #####
+#  ##### EXITED THE UART GENERATOR CONSTRUCTOR #####
+#  ##### INSIDE THE UART DRIVER CONSTRUCTOR #####
+#  ##### EXITED THE UART DRIVER CONSTRUCTOR #####
+#  ##### INSIDE THE UART MONITOR CONSTRUCTOR #####
+#  ##### EXITED THE UART MONITOR CONSTRUCTOR #####
+# [DRIVER]: ##### ENTERED RESET STATE IN DRIVER #####
+# [DRIVER]: ##### EXITED RESET STATE AND RESET IS DONE #####
+# [GEN]: INSIDE GENERATOR
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 106
+# [GEN]: Waiting for driver_done...
+# [DRIVER]: Data Sent: 106
+# [MONITOR]: Data Sent on TX: 106
+# [SCO] : DRV : 106 MON : 106
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# [GEN]: SCOREBOARD GOT COMPLETED
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: read Din: 102
+# [GEN]: Waiting for driver_done...
+# [DRIVER]: Data RCVD: 172
+# [DRIVER]: Triggering driver_done event for operation: 1
+# [MONITOR]: Data RCVD on RX: 172
+# [GEN]: DRIVER GOT COMPLETED
+# [GEN]: SCOREBOARD GOT COMPLETED
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: read Din: 193
+# [GEN]: Waiting for driver_done...
+# [SCO] : DRV : 172 MON : 172
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Data RCVD: 216
+# [DRIVER]: Triggering driver_done event for operation: 1
+# [MONITOR]: Data RCVD on RX: 216
+# [GEN]: DRIVER GOT COMPLETED
+# [GEN]: SCOREBOARD GOT COMPLETED
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 143
+# [GEN]: Waiting for driver_done...
+# [SCO] : DRV : 216 MON : 216
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Data Sent: 143
+# [MONITOR]: Data Sent on TX: 143
+# [SCO] : DRV : 143 MON : 143
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# [GEN]: SCOREBOARD GOT COMPLETED
+# [GEN]: RANDOMISATION IS SUCCESSFUL
+# [GEN]: Operation: write Din: 169
+# [GEN]: Waiting for driver_done...
+# [DRIVER]: Data Sent: 169
+# [MONITOR]: Data Sent on TX: 169
+# [SCO] : DRV : 169 MON : 169
+# DATA MATCHED
+# ----------------------------------------
+# [SCO]: scb_done event triggered.
+# [DRIVER]: Triggering driver_done event for operation: 0
+# [GEN]: DRIVER GOT COMPLETED
+# [GEN]: SCOREBOARD GOT COMPLETED
+# [GEN]: GENERATION COMPLETED
+# ** Note: $finish    : ./Verification/uart_env.sv(66)
+#    Time: 128250015 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Task v_pkg/uart_env::post_test at ./Verification/uart_env.sv line 66
