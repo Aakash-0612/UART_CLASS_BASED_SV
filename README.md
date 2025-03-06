@@ -1,4 +1,4 @@
-# 🚀 UART Transmitter and Receiver - Verilog Implementation
+# 🚀 UART Transmitter and Receiver - SystemVerilog Class Based Implementation
 
 ## 📌 Overview
 This project implements a **Universal Asynchronous Receiver-Transmitter (UART)** system using **SystemVerilog**. It includes both the transmitter and receiver modules, ensuring reliable serial communication between two devices. The design follows a **state-machine-based approach** and is highly configurable.
